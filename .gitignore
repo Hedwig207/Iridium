@@ -1,0 +1,34 @@
+# Gradle
+.gradle/
+build/
+out/
+classes/
+
+# Loom / Fabric dev artifacts
+.orig
+remappedSrc/
+*.dev.jar
+
+# Minecraft dev run directory (worlds, logs, eula, config)
+run/
+
+# Local tooling binaries
+dp.exe
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+*.launch
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

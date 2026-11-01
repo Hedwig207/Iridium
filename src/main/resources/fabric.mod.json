@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "iridium",
+  "version": "${version}",
+  "name": "Iridium",
+  "description": "Iridium: A high-performance Minecraft optimization mod, focusing on game logic & GC/memory optimizations.",
+  "authors": [
+    "Owlbyte"
+  ],
+  "contact": {},
+  "license": "AGPL-3.0",
+  "icon": "assets/iridium/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.owlbyte.iridium.IridiumMod"
+    ]
+  },
+  "mixins": [
+    "iridium.mixins.json"
+  ],
+  "accessWidener": "iridium.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.15.6",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
